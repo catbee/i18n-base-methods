@@ -1,0 +1,16 @@
+{
+  "name": "catbee-i18n-base",
+  "description": "Base i18n functions for catbee-i18n services",
+  "author": "Eugeny Dementev",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "keywords": [
+    "catbee",
+    "i18n"
+  ],
+  "license": "MIT"
+}
