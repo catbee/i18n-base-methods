@@ -1,16 +1,41 @@
 {
-  "name": "catbee-i18n-base",
-  "description": "Base i18n functions for catbee-i18n services",
+  "name": "i18n-base-methods",
+  "description": "4 base i18n methods",
   "author": "Eugeny Dementev",
   "version": "0.0.1",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catbee/i18n-base-methods.git"
   },
-  "dependencies": {},
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src -d dist",
+    "test": "lab -T node_modules/babel-lab test -l"
+  },
+  "dependencies": {
+    "lodash.get": "^4.2.1",
+    "lodash.memoize": "^4.0.3",
+    "parse-gettext-plural-form": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.8.0",
+    "babel-eslint": "^6.0.4",
+    "babel-lab": "^2.0.0",
+    "babel-preset-es2015": "^6.6.0",
+    "lab": "^10.4.0"
+  },
   "keywords": [
-    "catbee",
-    "i18n"
+    "i18n",
+    "gettext",
+    "po2json",
+    "methods",
+    "translates",
+    "_t",
+    "_pt",
+    "_np",
+    "_npt"
   ],
   "license": "MIT"
 }

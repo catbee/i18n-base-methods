@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "ast": false,
+  "comments": false
+}
