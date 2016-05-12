@@ -37,3 +37,9 @@ const context = 'name';
 i18n._npt({ l10n, plural: enPluralForm }, context, plurals, 1)) // name
 i18n._npt({ l10n, plural: enPluralForm }, context, plurals, 9)) // names
 ```
+
+[travis-img]: https://travis-ci.org/catbee/i18n-base-methods.svg?branch=master
+[travis-url]: https://travis-ci.org/catbee/i18n-base-methods
+
+[codecov-img]: https://codecov.io/github/catbee/i18n-base-methods/coverage.svg?branch=master
+[codecov-url]: https://codecov.io/github/catbee/i18n-base-methods?branch=master

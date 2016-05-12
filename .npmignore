@@ -4,3 +4,4 @@ test/
 .babelrc
 .gitignore
 .npmignore
+coverage.html
